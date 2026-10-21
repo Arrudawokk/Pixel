@@ -1,8 +1,8 @@
 # Cadastro do produto — PintaSurpresa
 
-Textos preparados para copiar no cadastro. Nenhuma configuração foi aplicada à Cakto. Os nomes de campos abaixo são uma organização editorial, não uma reprodução dos campos da plataforma.
+Textos preparados para copiar no cadastro. O checkout promocional informado pelo usuário já está conectado à página de vendas. Nenhuma configuração interna da Cakto foi alterada. Os nomes de campos abaixo são uma organização editorial, não uma reprodução dos campos da plataforma.
 
-## Produto principal
+## Produto único — Kit Completo
 
 **Nome:** Quadradinhos Mágicos — Kit Completo
 
@@ -15,6 +15,8 @@ Textos preparados para copiar no cadastro. Nenhuma configuração foi aplicada �
 **Público:** Pais, responsáveis e educadores que procuram atividades para imprimir e fazer com crianças.
 
 **Preço da oferta:** R$ 27,99, pagamento único.
+
+**Checkout conectado:** https://pay.cakto.com.br/6xtrnih_1227455 . Em 21/10/2026, o checkout exibia R$ 0,99 de taxa de serviço, totalizando R$ 28,98. A página informa a taxa junto ao preço; revisar `serviceFee` se ela mudar na plataforma.
 
 **Preço regular configurado na página:** R$ 37,99. A cobrança depende da oferta configurada no checkout; o contador da página não altera o preço na plataforma.
 
@@ -65,22 +67,13 @@ Boas-vindas à PintaSurpresa! Comece pelo guia, escolha uma atividade e imprima 
 - Para copiar modelos e completar figuras, consulte o modelo colorido na tela ou imprima em cores.
 - Escolha o nível conforme a autonomia da criança. Um adulto pode ajudar a ler a legenda, reconhecer os números e contar as casas.
 
-## Plano Normal
-
-**Nome:** Quadradinhos Mágicos — Coleção Normal
-
-**Preço:** R$ 14,90, pagamento único.
-
-**Descrição:** 104 atividades imprimíveis para colorir por números, copiar modelos, completar desenhos e criar livremente. Escolha uma folha, separe os lápis e acompanhe a figura aparecer, quadradinho por quadradinho. Inclui 60 atividades de colorir por números, 24 de copiar o modelo, 12 de completar a metade e 8 de criação livre. Material digital imprimível, sem envio físico. Os quatro kits extras são exclusivos do Kit Completo.
-
 ## Dados ainda necessários para finalizar a configuração
 
 - E-mail ou WhatsApp real de atendimento.
-- Arquivos correspondentes ao plano adquirido, anexados na área de entrega da plataforma. Não usar os arquivos desta página pública como entrega do produto pago.
-- Links de checkout do Normal, do Completo promocional e do Completo regular, para conectar em config.js.
+- Arquivos do Kit Completo adquirido, anexados na área de entrega da plataforma. Não usar os arquivos desta página pública como entrega do produto pago.
+- Link de checkout do Kit Completo regular (R$ 37,99), para conectar em `regularCheckoutUrl` no config.js. O promocional já está conectado.
 - Regras reais de acesso, pagamento e eventuais condições comerciais, antes de anunciá-las no cadastro. Não preencher garantias, prazos de acesso ou avaliações com informações não definidas.
 
 ## Resumo para exibição
 
-Normal: 104 atividades — R$ 14,90.
 Completo: 120 atividades, incluindo 4 kits extras — R$ 27,99 na oferta.

@@ -7,6 +7,7 @@
   const countdown=document.querySelector('#offer-countdown');
   const original=document.querySelector('#original-price');
   const ended=document.querySelector('#offer-ended');
+  const paymentNote=document.querySelector('#payment-note');
   let deadline=0,storageReady=false,lastActive;
   try{
     const saved=Number(sessionStorage.getItem(key));
@@ -21,15 +22,13 @@
   const setPrice=(name,value)=>document.querySelectorAll(`[data-price="${name}"]`).forEach(e=>e.textContent=value);
   function configureLink(name,url){
     const link=document.querySelector(`[data-checkout="${name}"]`);
-    const status=document.querySelector(name==='normal'?'#sales-state-normal':'#sales-state');
+    const status=document.querySelector('#sales-state');
     let usable=false;
     try{usable=new URL(url).protocol==='https:';}catch{}
-    if(usable){link.href=url;link.removeAttribute('aria-disabled');link.removeAttribute('role');link.removeAttribute('tabindex');status.textContent='Pagamento único.';}
+    if(usable){link.href=url;link.removeAttribute('aria-disabled');link.removeAttribute('role');link.removeAttribute('tabindex');status.textContent='Conclua sua compra no checkout.';}
     else{link.removeAttribute('href');link.setAttribute('aria-disabled','true');link.setAttribute('role','link');link.tabIndex=0;status.textContent='Compras em breve.';}
   }
   document.querySelectorAll('[data-checkout]').forEach(a=>a.addEventListener('click',e=>{if(a.getAttribute('aria-disabled')==='true')e.preventDefault();}));
-  setPrice('normal',plans.normal?.price||'14,90');
-  configureLink('normal',plans.normal?.checkoutUrl);
   document.querySelectorAll('[data-regular-price]').forEach(e=>e.textContent=complete.regularPrice||'37,99');
   function update(){
     const remaining=storageReady?Math.max(0,Math.ceil((deadline-Date.now())/1000)):0;
@@ -42,6 +41,7 @@
     ended.hidden=active;
     ended.textContent=storageReady?'Oferta desta visita encerrada. Valor regular aplicado.':'Valor regular. Oferta por visita indisponível neste navegador.';
     setPrice('complete',active?(complete.price||'27,99'):(complete.regularPrice||'37,99'));
+    paymentNote.textContent=active&&complete.serviceFee?`Pagamento único. + R$ ${complete.serviceFee} de taxa de serviço no checkout.`:'Pagamento único.';
     configureLink('complete',active?complete.checkoutUrl:complete.regularCheckoutUrl);
   }
   update();

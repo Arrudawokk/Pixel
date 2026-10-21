@@ -1,8 +1,7 @@
 window.STORE_CONFIG = {
   brand: 'PintaSurpresa',
   plans: {
-    normal: { price: '14,90', checkoutUrl: '' },
-    complete: { price: '27,99', regularPrice: '37,99', checkoutUrl: '', regularCheckoutUrl: '' }
+    complete: { price: '27,99', regularPrice: '37,99', checkoutUrl: 'https://pay.cakto.com.br/6xtrnih_1227455', regularCheckoutUrl: '', serviceFee: '0,99' }
   },
   supportEmail: '',
   supportWhatsapp: ''
