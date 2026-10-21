@@ -1,0 +1,26 @@
+PINTASURPRESA - PAGINA DE VENDAS ATUALIZADA
+Versao reunida em 21/10/2026.
+
+Esta pasta contem a pagina de vendas e todos os recursos locais necessarios.
+Envie o CONTEUDO desta pasta para a raiz da hospedagem: index.html, arquivos CSS/JS e assets/.
+Nao ha etapa de instalacao ou compilacao.
+Para conferir a demonstracao interativa, abra por uma hospedagem ou servidor local; abrir index.html diretamente pode impedir o carregamento de dados pelo navegador.
+
+CONFIGURACAO
+Edite config.js para adicionar os links reais de pagamento e contato.
+Normal: R$14,90, 104 atividades.
+Completo: R$27,99 durante a oferta, 120 atividades incluindo quatro kits extras.
+Preco regular do Completo: R$37,99.
+checkoutUrl: checkout do respectivo plano.
+regularCheckoutUrl: checkout do Completo pelo preco regular.
+Os campos de checkout e atendimento ainda estao vazios. Os botoes de compra ficam desabilitados sem os links.
+
+CONTEUDO ATUAL
+Planos e botoes no topo, imagens dentro dos planos, oferta de 49 minutos por visita,
+detalhes do material, demonstracao interativa, espaco para feedbacks reais e duvidas frequentes.
+Sem foto da apresentadora e sem secao inicial O que e.
+O material e apresentado como imprimivel.
+O contador e local ao navegador; a cobranca depende dos precos configurados nos checkouts.
+
+A pasta inclui somente a amostra publica, nao os arquivos pagos do produto.
+Esta entrega nao altera nem publica o site online.
