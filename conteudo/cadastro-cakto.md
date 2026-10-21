@@ -18,7 +18,7 @@ Textos preparados para copiar no cadastro. O checkout promocional informado pelo
 
 **Checkout conectado:** https://pay.cakto.com.br/6xtrnih_1227455 . Em 21/10/2026, o checkout exibia R$ 0,99 de taxa de serviço, totalizando R$ 28,98. A página informa a taxa junto ao preço; revisar `serviceFee` se ela mudar na plataforma.
 
-**Preço regular configurado na página:** R$ 37,99. A cobrança depende da oferta configurada no checkout; o contador da página não altera o preço na plataforma.
+**Preço regular configurado na página:** R$ 37,99. A compra permanece disponível por R$ 27,99, sem contador ou bloqueio por tempo.
 
 **Capa:** assets/capa-cakto-300x250.png, 300 × 250 pixels.
 
@@ -71,7 +71,6 @@ Boas-vindas à PintaSurpresa! Comece pelo guia, escolha uma atividade e imprima 
 
 - E-mail ou WhatsApp real de atendimento.
 - Arquivos do Kit Completo adquirido, anexados na área de entrega da plataforma. Não usar os arquivos desta página pública como entrega do produto pago.
-- Link de checkout do Kit Completo regular (R$ 37,99), para conectar em `regularCheckoutUrl` no config.js. O promocional já está conectado.
 - Regras reais de acesso, pagamento e eventuais condições comerciais, antes de anunciá-las no cadastro. Não preencher garantias, prazos de acesso ou avaliações com informações não definidas.
 
 ## Resumo para exibição

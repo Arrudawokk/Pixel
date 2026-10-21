@@ -11,17 +11,16 @@ Edite config.js para adicionar os links reais de pagamento e contato.
 Oferta unica - Kit Completo: R$27,99 durante a oferta, 120 atividades incluindo quatro kits extras.
 Preco regular do Completo: R$37,99.
 checkoutUrl: checkout promocional do Kit Completo.
-regularCheckoutUrl: checkout do Completo pelo preco regular.
 O checkout promocional esta conectado a https://pay.cakto.com.br/6xtrnih_1227455 .
 A Cakto exibia taxa de servico de R$0,99 na verificacao de 21/10/2026, totalizando R$28,98; serviceFee registra essa taxa para exibir junto ao preco promocional.
-O checkout do preco regular e o atendimento ainda nao foram informados. Apos o prazo, o botao fica indisponivel sem regularCheckoutUrl.
+O checkout permanece disponivel por R$27,99, sem contador, prazo por visita ou bloqueio automatico. Atendimento ainda nao informado.
 
 CONTEUDO ATUAL
-Um unico Kit Completo no topo, com preco e botao, quatro bonus ilustrados ao lado e oferta de 49 minutos por visita,
+Um unico Kit Completo no topo, com preco e botao, quatro bonus ilustrados ao lado e compra sem limite de tempo,
 detalhes do material, demonstracao interativa, espaco para feedbacks reais e duvidas frequentes.
 Sem foto da apresentadora e sem secao inicial O que e.
 O material e apresentado como imprimivel.
-O contador e local ao navegador; a cobranca depende dos precos configurados nos checkouts.
+O preco riscado de R$37,99 permanece como referencia visual. A compra utiliza somente o checkout de R$27,99.
 
 A pasta inclui somente a amostra publica, nao os arquivos pagos do produto.
 Esta entrega nao altera nem publica o site online.
