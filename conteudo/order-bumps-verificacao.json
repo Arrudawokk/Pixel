@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-21",
+  "status": "arquivos produzidos localmente; upload não realizado",
+  "distinct_missions": 37,
+  "packages": [
+    {
+      "archive": "Missoes-em-Familia-30-Dias-Entrega.zip",
+      "files": [
+        {
+          "name": "Apoios-para-Imprimir.pdf",
+          "pages": 11,
+          "sha256": "338f87259f76d0ec4d535b873333c3c7571befa50fb911723bd79c4d54fdd92a"
+        },
+        {
+          "name": "Calendario-para-Imprimir.pdf",
+          "pages": 1,
+          "sha256": "5d58c552bba5b075adfc3ed7d718aa83e2771f707cedb74f63c12a6b8bd02a48"
+        },
+        {
+          "name": "Missoes-em-Familia-30-Dias.pdf",
+          "pages": 47,
+          "sha256": "32a1379f4e0f3f7817b0fed4596c29438988cd46b5da51e22a9b33465d23e466"
+        }
+      ]
+    },
+    {
+      "archive": "Missoes-em-Familia-Semana-Criativa-Entrega.zip",
+      "files": [
+        {
+          "name": "Apoios-para-Imprimir.pdf",
+          "pages": 7,
+          "sha256": "45bbd7145851f2a404f6049107cbae6c2625d3ab4c5134201ad80008f557e704"
+        },
+        {
+          "name": "Calendario-para-Imprimir.pdf",
+          "pages": 1,
+          "sha256": "f57d122a7ec4a6c29c5bdefb6b5770bb33274e1a8c96be14cbc6772f192a2877"
+        },
+        {
+          "name": "Missoes-em-Familia-Semana-Criativa.pdf",
+          "pages": 18,
+          "sha256": "8981b076278b8836fe41c4c81d36af20e0156adaa5d4f156d9d3929883e10289"
+        }
+      ]
+    }
+  ]
+}

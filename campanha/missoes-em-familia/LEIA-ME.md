@@ -1,5 +1,7 @@
 # Criativos — Missões em Família
 
+**Histórico — não usar como oferta atual.** O produtor mudou os dois produtos para order bumps: 30 dias por R$ 17,99 e Semana Criativa por R$ 7,99. As imagens abaixo conservam os preços antigos. Os cadernos pagos foram produzidos localmente com 30 e 7 missões distintas; não estão neste repositório público. A seleção semanal atual não inclui o jogo de pares ilustrado no criativo antigo. Consulte `../../conteudo/order-bumps-missoes-em-familia.md` para o registro atual. O restante deste arquivo documenta a proposta anterior.
+
 Data: 21/10/2026. Marca: PintaSurpresa.
 Geração: ferramenta nativa de imagens. PNGs originais, sem recorte ou redimensionamento.
 
