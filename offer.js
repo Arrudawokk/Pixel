@@ -9,7 +9,14 @@
   let usable=false;
   try{usable=new URL(complete.checkoutUrl).protocol==='https:';}catch{}
   if(usable){
-    link.href=complete.checkoutUrl;
+    const checkout=new URL(complete.checkoutUrl);
+    const incoming=new URLSearchParams(window.location.search);
+    // Preserve campaign attribution while excluding unrelated or personal query fields.
+    for(const key of ['utm_source','utm_medium','utm_campaign','utm_content','utm_term','utm_id','utm_source_platform','fbclid','src','sck']){
+      const value=incoming.get(key);
+      if(value)checkout.searchParams.set(key,value);
+    }
+    link.href=checkout.href;
     link.removeAttribute('aria-disabled');link.removeAttribute('role');link.removeAttribute('tabindex');
     status.textContent='Conclua sua compra no checkout.';
   }else{
