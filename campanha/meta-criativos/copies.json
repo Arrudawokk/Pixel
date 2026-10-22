@@ -1,0 +1,40 @@
+{
+  "produto": "Quadradinhos Mágicos — Kit Completo",
+  "destino": "https://pixel-para-colorir.vercel.app/",
+  "botao_meta": "Saiba mais",
+  "nota_conteudo": "120 atividades no total, incluindo as atividades dos 4 kits de bônus.",
+  "anuncios": [
+    {
+      "id": "IMG01",
+      "arquivo": "01-descoberta.png",
+      "angulo": "Curiosidade: descobrir a figura",
+      "titulo": "Que figura vai aparecer? 🦖",
+      "texto_principal": "Cada número indica uma cor. Cada quadradinho pintado revela um pedacinho da surpresa! Conheça os Quadradinhos Mágicos: atividades para imprimir e transformar a próxima brincadeira em uma descoberta.",
+      "descricao": "Imprima, pinte e descubra a figura."
+    },
+    {
+      "id": "IMG04",
+      "arquivo": "04-kit-completo.png",
+      "angulo": "Variedade e conteúdo do kit",
+      "titulo": "120 atividades para imprimir e brincar",
+      "texto_principal": "Mais opções para variar a brincadeira! O Kit Completo reúne 120 atividades, incluindo os 4 kits de bônus, com legendas de cores e gabaritos. Escolha uma atividade, imprima e separe os lápis.",
+      "descricao": "Coleção completa com 4 kits de bônus."
+    },
+    {
+      "id": "VID01",
+      "arquivo": "criativo pixel 1.mp4",
+      "angulo": "Apresentação e simplicidade de uso",
+      "titulo": "A próxima brincadeira começa no papel",
+      "texto_principal": "Uma folha, lápis de cor e uma surpresa para descobrir. Nos Quadradinhos Mágicos, basta seguir a legenda e pintar os números para revelar o desenho. Conheça o kit e escolha por onde começar!",
+      "descricao": "Uma ideia de brincadeira fora das telas."
+    },
+    {
+      "id": "VID03",
+      "arquivo": "criativo pixel 3.mp4",
+      "angulo": "Demonstração do mecanismo",
+      "titulo": "Cada número, uma cor. Qual será a figura?",
+      "texto_principal": "Olhe a legenda, encontre o número e pinte com a cor indicada. Aos poucos, os quadradinhos viram uma figura! São 120 atividades para imprimir, incluindo 4 kits de bônus, para continuar descobrindo novos desenhos.",
+      "descricao": "Veja como funciona e conheça o kit."
+    }
+  ]
+}
